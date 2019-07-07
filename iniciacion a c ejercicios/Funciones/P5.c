@@ -6,7 +6,7 @@ int main() {
     int valor;
     scanf("%d",&valor);
     printf("valor de enntrada: %d \n", valor);
-    printf("valor invertido: %d", invertirvalor(valor));
+    printf("valor invertido: %d", invertirValor(valor));
     scanf("%d",&valor);
 
 }
