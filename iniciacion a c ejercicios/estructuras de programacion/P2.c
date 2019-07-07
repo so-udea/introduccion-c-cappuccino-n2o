@@ -18,5 +18,5 @@ int main (void)
     printf("\n");    
         
     }
-    getchar();
+    scanf("%d",&final);
 }

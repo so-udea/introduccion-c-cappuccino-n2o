@@ -5,10 +5,12 @@ int main (void)
 {
     
     int venta;
-    scanf("%d",&venta);
-    printf("%d \n", venta);
 
+    printf("ingrese el valor de la venta");
+    scanf("%d",&venta);
     printf("%f", calcularComision(venta));
+
+    scanf("%d",&venta);
 }
 
 float calcularComision (int venta){
