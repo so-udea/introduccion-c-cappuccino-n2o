@@ -23,21 +23,21 @@ int multiplicacionDinamica(valor, valor2){
     int num = rand() %maximo + minimo;
     int num2 = rand() %maximo+ minimo;
 
-    int resuulltado;
-    int resuulltadoAlumno;
+    int resultado;
+    int resultadoAlumno;
 
     printf("Cuanto es %d veces %d \n", valor, valor2);
     printf("Preciona 0(cero) para salir \n");
 
-    scanf("%d",&resuulltadoAlumno);
-    resuulltado = valor * valor2;
+    scanf("%d",&resultadoAlumno);
+    resultado = valor * valor2;
 
-    if (resuulltadoAlumno == resuulltado ){
+    if (resultadoAlumno == resultado ){
 
         printf("Muy bien! \n");
         multiplicacionDinamica(num, num2);
 
-    }else if(resulltadoAlumno == 0){
+    }else if(resultadoAlumno == 0){
 
         printf("No regrese");
         return 0;
